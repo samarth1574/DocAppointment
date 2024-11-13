@@ -23,8 +23,8 @@ const MyAppointments = () => {
             </div>
             <div></div>
             <div className='flex flex-col gap-2 justify-end'>
-                <button className='text-sm text-stone-500 text-center sm:min-w-28 py-2 border hover:bg-primary hover:text-white transition-all duration-300'>Pay Online</button>
-                <button className='text-sm text-stone-500 text-center sm:min-w-28 py-2 border hover:bg-red-600 hover:text-white transition-all duration-300'>Cancel appointment </button>
+                <button onClick={()=>{alert('This feature is in progress')}} className='text-sm text-stone-500 text-center sm:min-w-28 py-2 border hover:bg-primary hover:text-white transition-all duration-300'>Pay Online</button>
+                <button onClick={()=>{alert('This feature is in progress')}} className='text-sm text-stone-500 text-center sm:min-w-28 py-2 border hover:bg-red-600 hover:text-white transition-all duration-300'>Cancel appointment </button>
             </div>
             </div>
         ))}

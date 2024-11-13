@@ -3,13 +3,13 @@ import { assets } from '../assets/assets'
 
 const MyProfile = () => {
     const [userData,setUserData] = useState({
-        name:"Edward Vincent",
+        name:"Samarth Shekhar",
         image:assets.profile_pic,
-        email: "samyakmittal23@gmail.com",
-        phone: "+1  123 456 7890",
+        email: "shekharsamarth1574@gmail.com",
+        phone: "+91  123 456 7890",
         address:{
-            line1:"57th Cross, Richmond ",
-            line2:"Circle, Church Road, London"
+            line1:"Palam",
+            line2:"Dwarka, Delhi, India"
         },
         gender:"Male",
         dob:"2000-01-20"

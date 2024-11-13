@@ -8,7 +8,7 @@ const Footer = () => {
         {/*-----left side-------*/}
         <div>
         <img className='mb-5 w-40' src={assets.logo} alt=''/>
-        <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <p className='w-full md:w-2/3 text-gray-600 leading-6'>Experience world-class medical consultation from the comfort of your home. Global Health Connect brings expert doctors to your fingertips, helping you make informed decisions about your health and well-being.</p>
         </div>
         {/*-----center side-------*/}
         <div>
@@ -25,8 +25,8 @@ const Footer = () => {
         <div>
             <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-2 text-gray-600'>
-                <li>+1-212-456-7890</li>
-                <li>samyakmittal23@gmail.com</li>
+                <li>+91-212-456-7890</li>
+                <li>shekharsamarth1574@gmail.com</li>
             </ul>
         </div>
       </div>
