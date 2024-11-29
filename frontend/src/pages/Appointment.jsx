@@ -107,7 +107,7 @@ const Appointment = () => {
                     </p>
                 ))}
                 </div>
-                <button onClick={()=>{alert('This feature is in progress')}} className='bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6'>Book an appointment</button>
+                <button onClick={()=>{alert('Your Appointment is Booked.')}} className='bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6'>Book an appointment</button>
             </div>
             <RelatedDoctors docId = {docId} speciality = {docInfo.speciality}/>
         </div>
